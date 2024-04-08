@@ -9,7 +9,7 @@ const findlongest = (input) => {
    // words.sort((a, b) => a.length - b.length)
    // return words.at(-1)
 
-   words.sort((a, b) => b.length - a.length)
+    words.sort((a, b) => b.length - a.length)
    return words[0]
 }
 
