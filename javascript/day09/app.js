@@ -9,6 +9,7 @@ console.log(result);
 
 const RevserString = (str) => {
     str = str.split("").reverse().join("")
-    console.log(str);
+    console.log(str.replace(/\W/g, ""));
+    return str;
 }
 console.log(RevserString("jamil afzal"));
