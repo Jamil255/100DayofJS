@@ -4,7 +4,7 @@
 const isPowerOfTwo = (num) => {
     let opt=false
 for (let i = 1; i <num; i++) {
-    if (2**i===num) {
+    if (2*i===num) {
         opt = true
     }
     }
@@ -12,4 +12,23 @@ for (let i = 1; i <num; i++) {
 
 }
 
-console.log(isPowerOfTwo(6));
+console.log(isPowerOfTwo(16));
+
+
+// day13 revision
+
+const countVowels = (str) => {
+    let vowels = ["a", "e", "i", "o", "u"] 
+    let arr=str.split("")
+    let count=0
+    for (const char of arr) {
+        if (vowels.includes(char.toLowerCase())) {
+        count++
+        
+    }
+    }
+    return count
+
+}
+
+console.log(countVowels("adeel afzal mughal"));
