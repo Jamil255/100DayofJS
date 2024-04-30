@@ -22,3 +22,12 @@ const sumOfSquare = (array) => {
 }
 
 console.log(sumOfSquare([1, 2, 3]))
+
+const fact=(n)=>{
+if(n===0){
+return 1
+}
+return n*fact(n-1)
+}
+console.log(fact(5))
+
