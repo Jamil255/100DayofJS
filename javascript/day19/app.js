@@ -28,3 +28,4 @@ const startWith = (str, subStr) => {
 }
 console.log(startWith("jamil afzal", "jamil"));
 console.log(startWith("adeel afzal", "adeel"));
+console.log(startWith("ahamd awan "))
