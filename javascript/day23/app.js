@@ -26,4 +26,4 @@ const fibonacci = (num) => {
   return fibonacci(num - 1) + fibonacci(num - 2)
 }
 
-console.log(fibonacci(5));
+console.log(fibonacci(5))
