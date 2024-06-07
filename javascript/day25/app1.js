@@ -10,5 +10,6 @@ const sumOfEvens = (arr) => {
   
   // Example usage:
   const numbers = [1, 1, 3, 1, 5, 3];
+const numbers=[23,445,6677,77]
   console.log(sumOfEvens(numbers)); // This will output: 12
   
