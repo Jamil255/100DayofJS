@@ -7,3 +7,4 @@ const numberRangeRecursive = (a, b, arr = []) => {
 }
 console.log(numberRangeRecursive(2,5));
 console.log(numberRangeRecursive(2,10));
+console.log(numberRangeRecursive(10,100))
