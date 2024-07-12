@@ -38,6 +38,7 @@ const isEmptyObject = (obj) => {
       return `it is empty`;
     } else {
       console.log(Object.keys(obj)[0]);
+        console.log(Object)
       return `it is not empty`;
     }
   }
