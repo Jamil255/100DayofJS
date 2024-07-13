@@ -30,6 +30,7 @@
 // console.log(isEmptyObject({ age: 12, name: 'John' }))
 // console.log(isEmptyObject({}))
 // console.log(isEmptyObject({ age: 120 }))
+console.log(isEmptyObject({name:"john deo",age:"29"}))
 
 // dynamic approach
 
