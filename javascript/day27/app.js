@@ -4,6 +4,7 @@
 //     arr.push(a)
 //     return rangeNumberGen(a + 1, b, arr)
 //   }
+console.log(arr)
 //   return arr
 // }
 // console.log(rangeNumberGen(0, 10))
