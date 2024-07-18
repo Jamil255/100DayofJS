@@ -48,4 +48,5 @@ const isEmptyObject = (obj) => {
   console.log(isEmptyObject({ age: 12, name: 'John' })); // Output: age \n it is not empty
   console.log(isEmptyObject({})); // Output: it is empty
   console.log(isEmptyObject({ age: 120 })); // Output: age \n it is not empty
+console.log(isEmptyObject({age:1200}))
   
