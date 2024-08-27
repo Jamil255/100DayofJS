@@ -11,3 +11,4 @@ const removeDuplicates = (array) => {
 }
 console.log(removeDuplicates([1,22,3,4,2,1,3,4,5,]));
 // removeDuplicates
+
