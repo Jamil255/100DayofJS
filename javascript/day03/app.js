@@ -5,6 +5,7 @@ const countChar = (word, char) => {
         if (curChar === char) {
             accum++
         }
+        console.log(accum)
         return accum;
     }, 0)
     return totalCount;

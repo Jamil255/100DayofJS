@@ -30,6 +30,7 @@
 // console.log(isEmptyObject({ age: 12, name: 'John' }))
 // console.log(isEmptyObject({}))
 // console.log(isEmptyObject({ age: 120 }))
+console.log(isEmptyObject({name:"john deo",age:"29"}))
 
 // dynamic approach
 
@@ -38,6 +39,7 @@ const isEmptyObject = (obj) => {
       return `it is empty`;
     } else {
       console.log(Object.keys(obj)[0]);
+        console.log(Object)
       return `it is not empty`;
     }
   }
@@ -46,4 +48,5 @@ const isEmptyObject = (obj) => {
   console.log(isEmptyObject({ age: 12, name: 'John' })); // Output: age \n it is not empty
   console.log(isEmptyObject({})); // Output: it is empty
   console.log(isEmptyObject({ age: 120 })); // Output: age \n it is not empty
+console.log(isEmptyObject({age:1200}))
   
