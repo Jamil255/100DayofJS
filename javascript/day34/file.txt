@@ -1,0 +1,54 @@
+p1={
+   fname:"f1",
+   lname:"l1",
+   __proto__:{} 
+}
+
+p1<property>
+search on p1 object if property
+is not exist on p1 object then
+<property is search on __proto__ object if property is not exist on __proto__ object the return is error
+
+ 
+p2={
+    __proto__:p1
+}
+
+ const name = new String('person bandanha')
+    // or 
+// const name = "person1ka bandanha"
+
+name is give the all method at(),so many but why is simple primitative data 
+
+const name = {
+    __proto__:String.prototype
+}
+
+************everything in js is object***
+
+let name="something
+
+name=__proto__:String.prototype=Object.prototype
+
+let a=20
+a=__proto__:Number.prototype=Object.prototype
+let v=true
+a=__proto__:Boolean.prototype=Object.prototype
+
+
+
+
+  **************class ***********
+class Person {
+  constructor(fName, lName) {
+    this.fName = fName
+    this.lName = lName
+  }
+  getFullName() {
+    console.log(`${this.fName} ${this.lName}`)
+  }
+}
+
+const p1 = new Person('john', 'deo')
+p1.__proto__=Person.prototype
+console.log(p1)
