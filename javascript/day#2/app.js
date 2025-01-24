@@ -26,3 +26,21 @@ const generatorHash = (str) => {
 
 }
 const result = generatorHash("hello woLdG   "); 
+
+const sumOfArray=(array)=>{
+const dp=new Array(array.length) 
+    dp[0]=array[0]
+
+for(let i=0;i<array.length;i++){
+    dp[i]=dp[i-1]+array[i]
+}
+    return dp[array.length-1]
+}
+console.log(sumOfArray([1,2,3,4,5,6]))
+
+
+
+
+
+
+}
