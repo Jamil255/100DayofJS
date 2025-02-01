@@ -4,6 +4,11 @@ const fact = (n) => {
   return n * fact(n - 1)
 }
 
+
+
+
+
+
 // console.log(fact(3))
 
 const sumOfNumber = (n) => {
