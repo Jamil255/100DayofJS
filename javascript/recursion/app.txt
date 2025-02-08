@@ -1,0 +1,18 @@
+recursion 
+itself call 
+types
+bacltracking
+divider conquer
+
+space and time complexity
+
+time complexity: total number of calls * work on each call
+space complexity: height of callStack * memory on each call
+
+sum of number:
+5=5+4+3+2+1
+
+
+isSorted=[1,2,3,4,5],5
+
+array[n-1]>=array[n-2] && isSorted(array,n-1)

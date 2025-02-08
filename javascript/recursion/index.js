@@ -4,10 +4,12 @@ const fact = (n) => {
   return n * fact(n - 1)
 }
 
+const allNumberprint = (n) => {
+  console.log(n)
+  return allNumberprint(n - 1)
+}
 
-
-
-
+console.log(allNumberprint(8))
 
 // console.log(fact(3))
 
@@ -20,9 +22,8 @@ const sumOfNumber = (n) => {
 // console.log(sumOfNumber(5))
 
 const fibonacciSeries = (n) => {
-    if(n==0||n==1)return n
-    return fibonacciSeries(n-1)+fibonacciSeries(n-2)
-
+  if (n == 0 || n == 1) return n
+  return fibonacciSeries(n - 1) + fibonacciSeries(n - 2)
 }
 
 console.log(fibonacciSeries(3))
