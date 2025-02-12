@@ -1,9 +1,3 @@
-
-
-
-
-
-
 // // Iterative approach using bit manipulation
 let array = [1, 2, 3].sort((a, b) => a - b)
 let result = []
